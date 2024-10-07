@@ -1,5 +1,56 @@
-# Vue 3 + TypeScript + Vite
+# App-Notas Frontend
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este es el frontend de la aplicación App-Notas, desarrollada con Vue 3 y Vite.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Requisitos Previos
+
+- Node.js (versión 14 o superior)
+- npm (normalmente viene con Node.js)
+
+## Instalación
+
+1. Clona el repositorio:
+   ```
+   git clone https://github.com/pieromarcoz/app-notas.git
+   cd app-notas
+   ```
+
+2. Instala las dependencias:
+   ```
+   npm install
+   ```
+
+## Desarrollo
+
+Para ejecutar el servidor de desarrollo:
+
+```
+npm run dev
+```
+
+Esto iniciará el servidor de desarrollo de Vite. Abre `http://localhost:5173` en tu navegador para ver la aplicación.
+
+## Construcción para Producción
+
+Para construir la aplicación para producción:
+
+```
+npm run build
+```
+
+Esto generará una versión optimizada de la aplicación en el directorio `dist`.
+
+
+## Tecnologías Principales
+
+- Vue 3
+- Vite
+- Pinia (para manejo de estado)
+- Vue Router
+- Axios (para peticiones HTTP)
+- FormKit
+- Tailwind CSS
+
+## Configuración Adicional
+
+Asegúrate de configurar correctamente la URL de tu backend en el archivo de configuración de Axios.
