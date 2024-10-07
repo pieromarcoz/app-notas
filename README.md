@@ -19,7 +19,13 @@ Este es el frontend de la aplicación App-Notas, desarrollada con Vue 3 y Vite.
    ```
    npm install
    ```
+3. Configura la URL del backend:
+   
+   Abre el archivo `src/config/axios.js` (o donde hayas configurado Axios) y asegúrate de que la `baseURL` apunte a tu backend:
 
+   ```javascript
+   axios.defaults.baseURL = 'http://tu-backend-url.com/api';
+   ```
 ## Desarrollo
 
 Para ejecutar el servidor de desarrollo:
